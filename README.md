@@ -1,90 +1,133 @@
-REZNIK
+Chronography
 
-Personal Management & Intelligence System
+A personal environment for management, knowledge, time, and intelligent interaction.
 
-Project name: Reznik
-Assistant identity: Reznik
-Aliases: Rezi / Rezzy
-Conceptual environment: Chronography
-Status: Initial Development
+Chronography is a modular personal management and intelligence system designed to bring activities, projects, knowledge, and automation together in a unified environment.
 
-1. Overview
+Its purpose is to provide an intuitive, flexible, and extensible workspace where users can organize their lives, develop ideas, track progress, and interact with an integrated intelligence.
 
-Reznik is a personal digital ecosystem designed to organize activities, manage time, preserve knowledge, track progress and provide intelligent assistance.
+Vision
 
-The project begins as a responsive web application, designed for desktop and mobile devices, with the possibility of evolving into a more sophisticated personal assistant.
+Chronography aims to go beyond traditional productivity applications.
 
-Its development is guided by usability, personalization, visual clarity, automation and extensibility.
+Rather than being a collection of disconnected tools, it is envisioned as an interconnected environment where information, activities, projects, and knowledge can work together.
 
-2. Vision
+The system is designed around two complementary elements:
 
-Create a personal environment in which information, activities, knowledge and tools work together.
+- Chronography: The environment itself — its infrastructure, modules, tools, and user experience.
+- Reznik: Its integrated intelligence — an assistant with its own identity, personality, memory, and ability to interact with and operate within the environment.
 
-Reznik should reduce the friction between thinking, planning, executing, recording and creating.
+Together, they form a unified experience in which users remain in control while Reznik helps them understand, organize, develop, and improve their workspace.
 
-It should adapt to the user's needs rather than forcing the user to adapt to rigid organizational systems.
+Core Principles
 
-3. Core Principles
+- Intuitiveness: Complex functionality should feel simple and accessible.
+- Visual Clarity: Information should be presented in a clear, meaningful, and engaging way.
+- Personalization: Users should be able to adapt the environment to their needs.
+- Integration: Modules should communicate and share relevant information.
+- Flexibility: The system should accommodate different workflows and ways of thinking.
+- Reliability: Data integrity, consistency, and predictable behavior are essential.
+- Extensibility: New modules, tools, and capabilities should be integrated without compromising the existing architecture.
+- User Autonomy: Users should retain control over their data, decisions, and environment.
 
-- Intuitiveness: Information should be easy to understand and access.
-- Visual clarity: Prefer clear visual representations over unnecessarily complex interfaces.
-- Personalization: Allow the system to adapt to different needs and workflows.
-- Integration: Connect activities, records, projects and knowledge.
-- Flexibility: Support different ways of organizing and interacting with information.
-- Reliability: Preserve information and maintain consistent behavior.
-- Extensibility: Allow new modules and capabilities to be added progressively.
-- Autonomy: Assist the user without unnecessarily restricting their decisions.
+Main Components
 
-4. Initial Modules
+Chronography Core
 
-- Dashboard
-- Activities
-- Records
-- Statistics
-- Achievements
-- Calendar
+The foundation responsible for the system's internal infrastructure, configuration, data management, and communication between modules.
 
-5. Future Modules
+Modules
 
-- Notes and Knowledge Management
-- Projects
-- Advanced Calendar
-- Automation
-- External Integrations
-- Reznik AI
-- Contextual Memory
-- Personal Device Integration
+Independent functional components that provide specific capabilities.
 
-6. Assistant Identity
+Planned modules include:
 
-Reznik is inspired by the characteristics the creator values in Tracy Reznik from Identity V.
+- Activities: Activity management, execution records, and tracking.
+- Chronography: Temporal records, history, and statistics.
+- Achievements: Milestones, accomplishments, and progress recognition.
+- Calendar: Scheduling and time organization.
+- Projects: Project organization and development.
+- Knowledge: Notes, ideas, documents, and interconnected information.
 
-These include intelligence, genuineness, empathy, creativity, technical competence and collaboration.
+Reznik
 
-These characteristics should influence the application's visual identity, interactions and future assistant behavior.
+Reznik (or Rezi/Rezzy) is the intelligence integrated into Chronography.
 
-Reznik should be helpful, contextual, approachable and respectful of the user's autonomy.
+She is envisioned as more than a conventional chatbot. Her purpose is to understand the environment, maintain contextual knowledge, interact with its modules, and assist users through conversation and actions.
 
-7. Development Philosophy
+Her planned capabilities include:
 
-The project will evolve according to actual needs, experiences and limitations encountered during use.
+- Natural language interaction.
+- Contextual memory.
+- Information retrieval and organization.
+- Assistance with activities and projects.
+- Interaction with system modules and tools.
+- Suggestions, automation, and authorized actions.
+- Adaptation to individual workflows and preferences.
 
-Features should not be implemented merely because similar applications offer them.
+Reznik should have a recognizable identity and consistent personality while remaining transparent about her capabilities and limitations.
 
-Each feature should solve a real problem or provide meaningful value.
+Architecture Philosophy
 
-The initial objective is to build a useful personal management system, not an artificial intelligence.
+Chronography is intended to follow a modular architecture.
 
-8. Long-Term Vision
+The Core, functional modules, interface, integrations, and Reznik should have clearly defined responsibilities and communication boundaries.
 
-Reznik aims to become an integrated personal environment combining:
+This approach aims to provide:
 
-- Personal management.
-- Time organization.
-- Activity tracking.
-- Knowledge management.
-- Project management.
-- Intelligent assistance.
-- Automation and external integrations.
+- Independent module development.
+- Maintainable and reusable components.
+- Controlled communication between system components.
+- Gradual integration of intelligent capabilities.
+- Freedom to evolve individual parts without redesigning the entire system.
 
-The system should remain modular and adaptable as its capabilities evolve.
+The architecture should support future expansion without introducing unnecessary complexity during early development.
+
+Development Roadmap
+
+Chronography is currently in its initial planning and development stage.
+
+The development is expected to progress through the following stages:
+
+1. Foundation — Establish the project structure, development environment, and architectural foundations.
+2. Core Development — Implement the backend, data management, and communication infrastructure.
+3. Initial Modules — Develop activities, records, statistics, achievements, and calendar functionality.
+4. Interface Development — Build the responsive user interface and integrate the functional modules.
+5. Expansion — Introduce projects, knowledge management, integrations, and automation.
+6. Reznik Intelligence — Gradually implement contextual memory, reasoning, tools, and intelligent interaction.
+
+This roadmap is an evolving direction rather than a fixed specification.
+
+Technology
+
+The initial technology choices are being evaluated with an emphasis on maintainability, modularity, and long-term extensibility.
+
+Current development direction:
+
+- Python: Backend development and system logic.
+- FastAPI: Backend API.
+- PostgreSQL: Persistent data storage.
+- React + TypeScript: Web interface.
+- Vite: Frontend development environment.
+
+These choices may evolve as the project develops.
+
+Project Status
+
+Early development — Initial foundation.
+
+Chronography is an independent project under active development. Its architecture, functionality, and visual identity are still being established.
+
+Long-Term Vision
+
+The long-term goal is to create an environment that evolves alongside its users.
+
+Chronography should provide the tools and infrastructure to manage information, activities, projects, and ideas, while Reznik serves as an intelligent collaborator capable of understanding and working within that environment.
+
+The ambition is not simply to build another productivity application, but to create a cohesive personal environment where organization, knowledge, creativity, and intelligence work together.
+
+---
+
+Chronography — An environment to build, organize, and evolve.
+
+Reznik — Intelligence within the environment.
